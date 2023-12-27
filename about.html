@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET YOUR CUSTOM KETO DIET PLAN</title>
+    <link rel="stylesheet" href="loader.css">
+    <style>
+        body {
+            background-color: #3d3d3d;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #dbdbdb;
+        }
+
+        iframe {
+            
+            margin-top: 20px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 2px 3px 16px black;
+        }
+
+        .buy-now-button {
+            display: block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff8d8d;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition:  ease 0.4s;
+            cursor: pointer;
+        }
+
+        .buy-now-button:hover{
+            background-color: #ff5757;
+            box-shadow: 2px 3px 15px black;
+
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .buy-now-button {
+                font-size: 1em;
+            }
+        }
+
+        .loader-container {
+  position: absolute;
+ top:200px;}
+    </style>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Learn about keto dite</h1>
+    
+        <iframe width="760" height="415" src="https://www.youtube.com/embed/Cc-sG55d_30?si=qvafR-Ksue51XMBf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+    <a onclick="openPopup()" class="buy-now-button">Get Now</a>
+</div>
+
+<!--form-->
+
+<div class="popup-container" id="popupContainer">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <form id="myForm">
+            <input type="text" id="name" name="Name" placeholder="Your Name">
+
+            <input type="email" id="email" name="Email" placeholder="Your Email">
+
+            <button id="btn1" type="submit">Learn</button>
+        </form>
+    </div>
+</div>
+
+<!--Loader-->
+<div class="loader-container">
+    <div class="loader"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
